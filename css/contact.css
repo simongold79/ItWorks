@@ -1,0 +1,348 @@
+.container{
+    width: 90%;
+}
+.menu-pointer{
+    margin-right: 82.5%;
+}
+
+/*================
+Secondary menu
+================*/
+.squ{
+    width: 25%;
+}
+.squ-1{
+    margin-right: 0%;
+}
+.squ>img{
+    width: 100%;
+    height: 100%;
+}
+.squ-mobile{
+    display: none !important;
+}
+
+/*.squ-2{
+    background-color: #579685;
+}
+.squ-3{
+    background-color: #7caea2;
+}
+.squ-4{
+    background-color: #9daea8;
+}*/
+
+/*================
+Contact content
+================*/
+.contact-det{
+    display: inline-block;
+}
+.contact-det-1{
+    width: 21%;
+}
+.contact-mobile{
+    display: none;
+}
+.wpcf7 {
+    background-color: #e5f0ec;
+    text-align: center;
+    padding-top: 30px !important;
+}
+label{
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.require{
+    font-weight: 700;
+}
+label>span>input, label>span>textarea, label>span>select{
+    width: 860px;
+    height: 40px;
+    background-color: #ccd7d3;
+    color: #13392f;
+    border: 0;
+}
+/*option{
+    width: 860px;
+    height: 40px;
+    background-color: #ccd7d3;
+    color: black;
+    border: 0;
+}*/
+label>span>textarea{
+    height: 180px;
+}
+
+#first-name{margin-right: 64px;}
+#last-name{margin-right: 34px;}
+#email{margin-right: 15px;}
+#tel{margin-right: 54px;}
+#select{margin-right: 56px;}
+#text{margin-right: 103px;}
+
+ /*Ar*/
+#first-name-ar{margin-right: 64px;}
+#last-name-ar{margin-right: 87px;}
+#email-ar{margin-right: 26px;}
+#tel-ar{margin-right: 79px;}
+#select-ar{margin-right: 102px;}
+#text-ar{margin-right: 86px;}
+
+/*En*/
+#first-name-en{margin-left: 64px;}
+#last-name-en{margin-left: 69px;}
+#email-en{margin-left: 136px;}
+#tel-en{margin-left: 17px;}
+#select-en{margin-left: 120px;}
+#text-en{margin-left: 102px;}
+
+.wpcf7-submit{
+    color: white;
+    background-color: #2b7461;
+    height: 40px;
+    width: 170px;
+    border: 0;
+    font-size: 30px;
+    margin-right: 890px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.submit-en{ 
+    margin-right: 0px;
+    float: right;
+}
+
+@media screen and (max-width: 1690px) {
+    label>span>input, label>span>textarea, label>span>select{
+        width: 680px;
+    } 
+    .wpcf7-submit{
+        margin-right: 710px;
+    }
+    .submit-en{ 
+        margin-right: 0px;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    label>span>input, label>span>textarea, label>span>select{
+        width: 557px;
+    } 
+    .wpcf7-submit{
+        margin-right: 589px;
+        font-size: 24px;
+    }
+    .submit-en{ 
+        margin-right: 0px;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    label>span>input, label>span>textarea, label>span>select{
+        width: 443px;
+    } 
+    .wpcf7-submit{
+        margin-right: 474px;
+    }
+    .submit-en{ 
+        margin-right: 0px;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-det-1{
+        width: 25%;
+    }
+    label{
+        font-size: 20px;
+    }
+    label>span>input, label>span>textarea, label>span>select{
+        width: 403px;
+    }
+    #first-name{margin-right: 38px;}
+    #last-name{margin-right: 15px;}
+    #email{margin-right: 0px;}
+    #tel{margin-right: 28px;}
+    #select{margin-right: 28px;}
+    #text{margin-right: 60px;}
+    
+    /*Ar*/
+    #last-name-ar{margin-right: 80px;}
+    #email-ar{margin-right: 37px;}
+    #tel-ar{margin-right: 73px;}
+    #select-ar{margin-right: 89px;}
+    #text-ar{margin-right: 82px;}
+    
+    /*En*/
+    #first-name-en{margin-left: 36px;}
+    #last-name-en{margin-left: 40px;}
+    #email-en{margin-left: 88px;}
+    #tel-en{margin-left: 0px;}
+    #select-en{margin-left: 73px;}
+    #text-en{margin-left: 62px;}
+    
+    .wpcf7-submit{
+        height: 30px;
+        line-height: 30px;
+        margin-right: 0px;
+        float: left;
+        font-size: 20px;
+        width: 110px;
+    }
+    .submit-en{ 
+        margin-right: 0px;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    label>span>input, label>span>textarea, label>span>select{
+        width: 348px;
+    } 
+    .contact-det-1{
+        width: 19%;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-tabs{
+        height: 119px;
+    }
+    .squ{
+        height: 100%;
+        width: 24.2%;
+        margin-left: 1% !important;
+    }
+    .squ-1{
+        display: none !important;
+        margin-right: 0% !important;
+    }
+    .squ-4, .squ-mobile-en{
+        margin-left: 0% !important;
+    }
+    .squ-4-en{
+        margin-left: 1% !important;
+    }
+    .squ-mobile{
+        display: inline-block !important;
+        background-color: #2b7461;
+        color: white;
+        font-size: 23px;
+        line-height: 1.1;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 119px;
+    }
+    .squ-mobile>span{
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+    }
+    .contact-det-1{
+        display: none;
+    }
+    .contact-mobile{
+        display: block;
+        font-size: 14px;
+    }
+    label{
+        font-size: 14px;
+    }
+    label>span>input, label>span>textarea, label>span>select{
+        width: 399px;
+        height: 28px;
+    }
+    label>span>textarea{
+        height: 82px;
+    }
+    #first-name{margin-right: 26px;}
+    #last-name{margin-right: 10px;}
+    #tel{margin-right: 20px;}
+    #select{margin-right: 20px;}
+    #text{margin-right: 42px;}
+    
+    /*Ar*/
+    #first-name-ar{margin-right: 39px;}
+    #last-name-ar{margin-right: 51px;}
+    #email-ar{margin-right: 20px;}
+    #tel-ar{margin-right: 46px;}
+    #select-ar{margin-right: 58px;}
+    #text-ar{margin-right: 52px;}
+    
+    /*En*/
+    #first-name-en{margin-left: 20px;}
+    #last-name-en{margin-left: 22px;}
+    #email-en{margin-left: 57px;}
+    #tel-en{margin-left: -2px;}
+    #select-en{margin-left: 48px;}
+    #text-en{margin-left: 38px;}
+    
+    .wpcf7-submit{
+        font-size: 16px;
+        height: 28px;
+        width: 63px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-tabs{
+        height: 82px;
+    }
+    .squ-mobile{
+        font-size: 14px;
+        line-height: 82px;
+    }
+    label>span>input, label>span>textarea, label>span>select{
+        width: 253px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav-tabs{
+        height: 59px;
+    } 
+    .squ-mobile{
+        line-height: 59px;
+    }
+    label>span>input, label>span>textarea, label>span>select{
+        width: 165px;
+    }
+}
+
+/*@media screen and (max-width: 1200px) {
+    .squ{
+        width: 24.4%;
+        margin-left: 4.3px;
+    }
+    .squ-1{
+        margin-right: 0.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .squ{
+        width: 24.44%;
+    }
+    .squ-1{
+        margin-right: 0.2%;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .squ{
+        width: 24.1%;
+    }
+    .squ-1{
+        margin-right: 1%;
+    }
+}*/

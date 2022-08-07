@@ -1,0 +1,172 @@
+#menu-item-542, #menu-item-529, #menu-item-547{
+    opacity: 1;
+}
+.menu-pointer{
+    margin-right: 5.5%;
+}
+
+/*================
+team section 
+================*/
+
+/*.content{
+    display: inline-block;
+    margin: 5% 0 8% 0;
+    width: 10.9%;
+}
+.wpcf7-submit{
+    border: 0;
+    padding: 0px;
+}
+*/
+
+.tab-content{
+    padding: 0;
+}
+#home, #menu2, #menu3{
+    padding: 4%;
+}
+#menu1{
+    padding: 4% 0;
+}
+.content{
+    display: inline-block;
+    padding: 0 !important;
+    margin-bottom: 4%;
+}
+img.wp-post-image {
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+}
+img.wp-post-image:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    opacity: 0.9;
+    transition: opacity 1s;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #b7c3c3;
+    position: absolute;
+    line-height: 0;
+      /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 1;
+    transition: opacity 1s;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+span{
+    width: 100%;
+    height: 60px;
+}
+span.tooltiptext{
+    width: -webkit-fill-available;
+}
+.blog-post{
+    width: 100%;
+}
+.blog-post.tooltip > button{
+    width: 100%;
+    padding: 1px;
+    border: none;
+    background: none;
+ 
+}
+.blog-post-title{
+    margin-top: 15px;
+}
+.blog-post-title, .team-member-pos{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.content{
+    width: 11%;
+}
+
+
+@media screen and (max-width: 1920px){
+    .blog-post-title, .team-member-pos{
+        font-size: 15px;
+    }    
+}
+
+@media screen and (max-width: 1440px){
+    span{
+        height: 30px;
+    }
+    .blog-post-title{
+        margin-top: 8px;
+    }
+    .blog-post-title, .team-member-pos{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }    
+}
+
+@media screen and (max-width: 1024px){
+    .content{
+        width: 20%;
+    }
+    span{
+        height: 40px;
+    }
+    span.tooltiptext{
+        bottom: 10px;
+        width: 80%;
+    }
+    .tooltip:hover .tooltiptext{
+        opacity: 0.8;
+    }
+    .blog-post-title{
+        margin-top: 10px;
+    }
+    .blog-post-title, .team-member-pos{
+        font-size: 11px;
+        margin-bottom: 15px;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .squ-1{
+        background-color: #65a994;
+    }
+    .squ-2{
+        background-color: #3a9a7b;
+    }
+    .squ-3{
+        background-color: #43b38f;
+    }
+    .squ-4{
+        background-color: #76ccb1;
+    }
+    span.tooltiptext{
+    bottom: 0;
+    height: auto;
+    }
+    .content{
+        width: 33%;
+    }
+    span.tooltiptext{
+        bottom: 0;
+        width: 100%;
+    }
+    .blog-post-title, .team-member-pos{
+        font-size: 9px;
+    }  
+}
+
+@media screen and (max-width: 380px) {
+  li>a> p.para4{
+       line-height: 1;
+    }
+    
+}

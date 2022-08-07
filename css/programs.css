@@ -1,0 +1,144 @@
+#menu-item-546, #menu-item-536, #menu-item-550{
+    opacity: 1;
+}
+.menu-pointer{
+    margin-right: 38.5%;
+    margin-left: 38.5%;
+}
+
+/*================
+Tabs nav
+================*/
+.tab-content{
+    padding: 50px 0;
+}
+ul{
+    padding: 0;
+}
+.menu-item{
+    padding: 0;
+}
+#menu-item-186, #menu-item-187, #menu-item-188, #menu-item-189, #menu-item-190, #menu-item-191, #menu-item-192, #menu-item-323,
+#menu-item-196, #menu-item-195, #menu-item-194, #menu-item-567, #menu-item-568, #menu-item-569, #menu-item-570, #menu-item-571, 
+#menu-item-572, #menu-item-573, #menu-item-574,#menu-item-575, #menu-item-576, #menu-item-577, #menu-item-556, #menu-item-557, 
+#menu-item-558, #menu-item-559, #menu-item-560, #menu-item-561, #menu-item-562, 
+#menu-item-563,#menu-item-564, #menu-item-565, #menu-item-566, #menu-item-802, #menu-item-803, #menu-item-804{
+    width: 24.5%;
+    height: auto;
+    opacity: 1;
+    margin: 0 auto;
+}
+/*#menu-item-186, #menu-item-566, #menu-item-577 {
+    background-color: #969ea0;
+}
+#menu-item-187, #menu-item-565, #menu-item-576{
+    background-color: #659597;
+}
+#menu-item-188, #menu-item-564, #menu-item-575{
+    background-color: #3da987;
+}
+#menu-item-189, #menu-item-563, #menu-item-574{
+    background-color: #62c7a5;
+}
+#menu-item-190, #menu-item-562, #menu-item-573{
+    background-color: #478576;
+}
+#menu-item-191, #menu-item-561, #menu-item-572{
+    background-color: #5a7772;
+}
+#menu-item-192, #menu-item-560, #menu-item-571{
+    background-color: #805a81;
+}
+#menu-item-323, #menu-item-559, #menu-item-570{
+    background-color: #5a7772;
+}
+#menu-item-194, #menu-item-557,#menu-item-568{
+    background-color: #7c9c73;
+}
+#menu-item-195, #menu-item-556, #menu-item-567 {
+    background-color: #739d93;
+}
+#menu-item-196, #menu-item-558, #menu-item-569{
+    background-color: #4d6273;
+}*/
+#menu-item-186>a>span, #menu-item-187>a>span, #menu-item-188>a>span, #menu-item-189>a>span, #menu-item-190>a>span, 
+#menu-item-191>a>span, #menu-item-192>a>span, #menu-item-323>a>span,#menu-item-196>a>span, #menu-item-195>a>span, 
+#menu-item-194>a>span, #menu-item-567>a>span, #menu-item-568>a>span, #menu-item-569>a>span, 
+#menu-item-570>a>span, #menu-item-571>a>span, #menu-item-572>a>span, #menu-item-573>a>span, #menu-item-574>a>span,
+#menu-item-575>a>span, #menu-item-576>a>span, #menu-item-577>a>span, #menu-item-556>a>span, #menu-item-557>a>span, 
+#menu-item-558>a>span, #menu-item-559>a>span, #menu-item-560>a>span, #menu-item-561>a>span, 
+#menu-item-562>a>span, #menu-item-563>a>span,#menu-item-564>a>span, #menu-item-565>a>span, #menu-item-566>a>span {
+    display: none;
+}
+.menu-item a.menu-image-title-after.menu-image-not-hovered img, .menu-item a.menu-image-hovered.menu-image-title-after .menu-image-hover-wrapper{
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+}
+.menu-item>a>img{
+    width: 100%;
+    height: 100%;
+    padding-top: 0 !important;
+}
+.pro-content{
+    background-color: #e5f0ec;
+}
+
+@media screen and (max-width: 1200px) {
+    .tab-content{
+        padding: 30px 0;
+    }
+    #menu-item-186, #menu-item-187, #menu-item-188, #menu-item-189, #menu-item-190, #menu-item-191, #menu-item-192, #menu-item-323,
+    #menu-item-196, #menu-item-195, #menu-item-194, #menu-item-567, #menu-item-568, #menu-item-569, #menu-item-570, #menu-item-571, 
+    #menu-item-572, #menu-item-573, #menu-item-574,#menu-item-575, #menu-item-576, #menu-item-577, #menu-item-556, #menu-item-557, 
+    #menu-item-558, #menu-item-559, #menu-item-560, #menu-item-561, #menu-item-562, 
+    #menu-item-563,#menu-item-564, #menu-item-565, #menu-item-566, #menu-item-802, #menu-item-803, #menu-item-804{
+        width: 24%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tab-content{
+        padding: 20px 0;
+    }
+    ul{
+        text-align: center;
+        margin-right: 7px;
+    }
+    #menu-item-186, #menu-item-187, #menu-item-188, #menu-item-189, #menu-item-190, #menu-item-191, #menu-item-192, #menu-item-323,
+    #menu-item-196, #menu-item-195, #menu-item-194, #menu-item-567, #menu-item-568, #menu-item-569, #menu-item-570, #menu-item-571, 
+    #menu-item-572, #menu-item-573, #menu-item-574,#menu-item-575, #menu-item-576, #menu-item-577, #menu-item-556, #menu-item-557, 
+    #menu-item-558, #menu-item-559, #menu-item-560, #menu-item-561, #menu-item-562, 
+    #menu-item-563,#menu-item-564, #menu-item-565, #menu-item-566, #menu-item-802, #menu-item-803, #menu-item-804{
+        width: 33%;
+        margin: 0 -4px -6px 2px;
+        height: 159px;
+    }
+    #menu-item-802, #menu-item-803, #menu-item-804{
+        background-color: #b9c4c2;
+    }
+    #menu-item-802>.easingslider-801, #menu-item-803>.easingslider-801, #menu-item-804>.easingslider-801{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #menu-item-186, #menu-item-187, #menu-item-188, #menu-item-189, #menu-item-190, #menu-item-191, #menu-item-192, #menu-item-323,
+    #menu-item-196, #menu-item-195, #menu-item-194, #menu-item-567, #menu-item-568, #menu-item-569, #menu-item-570, #menu-item-571, 
+    #menu-item-572, #menu-item-573, #menu-item-574,#menu-item-575, #menu-item-576, #menu-item-577, #menu-item-556, #menu-item-557, 
+    #menu-item-558, #menu-item-559, #menu-item-560, #menu-item-561, #menu-item-562, 
+    #menu-item-563,#menu-item-564, #menu-item-565, #menu-item-566, #menu-item-802, #menu-item-803, #menu-item-804{
+        height: 105px;
+        width: 32.5%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #menu-item-186, #menu-item-187, #menu-item-188, #menu-item-189, #menu-item-190, #menu-item-191, #menu-item-192, #menu-item-323,
+    #menu-item-196, #menu-item-195, #menu-item-194, #menu-item-567, #menu-item-568, #menu-item-569, #menu-item-570, #menu-item-571, 
+    #menu-item-572, #menu-item-573, #menu-item-574,#menu-item-575, #menu-item-576, #menu-item-577, #menu-item-556, #menu-item-557, 
+    #menu-item-558, #menu-item-559, #menu-item-560, #menu-item-561, #menu-item-562, 
+    #menu-item-563,#menu-item-564, #menu-item-565, #menu-item-566, #menu-item-802, #menu-item-803, #menu-item-804{
+        height: 75px;
+    }
+}

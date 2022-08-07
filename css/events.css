@@ -1,0 +1,31 @@
+#menu-item-538, #menu-item-532, #menu-item-549{
+    opacity: 1;
+}
+.menu-pointer{
+    margin-right: 27.5%;
+}
+
+/*================
+Secondary menu
+================*/
+/*.squ-2{
+    background-color: #8b718c;
+}
+.squ-3{
+    background-color: #b9a8b8;
+}*/
+.squ-mobile-4{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .squ-mobile{
+        background-color: #6f406e;
+    }
+    .squ-4-img{
+        display: none !important;
+    }
+    .squ-mobile-4{
+        background-color: #b9c4c2;
+    }
+}

@@ -1,0 +1,65 @@
+#menu-item-545, #menu-item-432, #menu-item-552{
+    opacity: 1;
+}
+.menu-pointer{
+    margin-right: 60.5%;
+}
+
+/*================
+Secondary menu
+================*/
+/*.squ-2{
+    background-color: #699699;
+}
+.squ-3{
+    background-color: #83a6a8;
+}
+.squ-4{
+    background-color: #b9cdce;
+}*/
+
+/*================
+Content
+================*/
+p{
+    background-color: #e5f0ec;
+    margin-bottom: 0;
+    padding: 60px 80px 20px 80px;
+    color: #13392f;
+    font-size: 28px;
+}
+
+
+/*================
+Logos Slider
+================*/
+.wpls-logo-showcase-slider-wrp{
+    background-color: rgba(79,133,135,0.46) !important;
+    padding: 40px 0 20px 0;
+}
+.wpls-logo-showcase .wpls-logo-cnt.slick-slide img{
+    width: 100% !important;
+}
+.wpls-logo-showcase{
+    padding: 0 80px 20px 80px !important;
+}
+.wpls-logo-showcase button.slick-arrow{
+    width: 80px;
+    height: 80px;
+}
+.wpls-logo-showcase button.slick-prev, .wpls-logo-showcase button.slick-prev:active, .wpls-logo-showcase button.slick-prev:hover, .wpls-logo-showcase button.slick-prev:focus{
+    background: rgba(0, 0, 0, 0) url('../images/media/next_picANDvideo_left.png') center center no-repeat !important;
+}
+.wpls-logo-showcase button.slick-next, .wpls-logo-showcase button.slick-next:active, .wpls-logo-showcase button.slick-next:hover, .wpls-logo-showcase button.slick-next:focus{
+    background: rgba(0, 0, 0, 0) url('../images/media/next_picANDvideo_right.png') center center no-repeat !important;
+}
+.slick-dots{
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    .squ-mobile{
+        background-color: #4f8587;
+    }
+}
+

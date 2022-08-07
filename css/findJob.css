@@ -1,0 +1,628 @@
+#menu-item-540, #menu-item-533, #menu-item-548{
+    opacity: 1;
+}
+.tab-content{
+    padding: 0;
+}
+.menu-pointer{
+    margin-right: 15.5%;
+}
+#home, #menu2{
+    padding: 4%;
+}
+#menu1{
+    padding: 5% 10% 3% 10%;
+}
+.nav-tabs>li>a{
+    text-align: center;
+}
+
+/*================
+POSITIONS content
+================*/
+.blog-post{
+    background-color: #ccd7d3;
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.position, .position-text, .position-mobile{
+    display: inline-block;
+}
+.position-text-div{
+    width: 50%;
+}
+.position-text-div-en{
+    width: auto;
+}
+.position-num{
+    margin-right: 30px;
+}
+.blog-post-title{
+    margin-right: 7%;
+}
+.blog-post-title-en{
+    margin-right: 0;
+}
+.position-button-div{
+    float: left;
+}
+.position-button-div-en{
+    float: right;
+}
+.position-button {
+    color: white;
+    padding: 0 30px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    border: 0;
+    line-height: 40px;
+}
+.position-button>span, .position-button>a>span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.position-button>a{
+    color: white;
+}
+.button{
+    background-color: #7f968f;
+}
+.position-cv{
+    background-color: #55746c;
+}
+.modal-content{
+    background-color: #7f968f !important;
+    color: #e5f0ec;
+}
+.position-popup-btn{
+    background-color: #e5f0ec;
+    color: #13392f;
+    width: 20%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 3px 0;
+}
+
+
+/*================
+TIPS content
+================*/
+.tip{
+    background-color: #ccd7d3;
+    width: 48.5%;
+    height: 220px;
+    display: inline-block;
+    margin-bottom: 30px;
+    position: relative;
+}
+.tip-1, .tip-3{
+    margin-left: 2%;
+}
+.tip-1-en, .tip-3-en{
+    margin-right: 2%;
+    margin-left: 0;
+}
+.tip>img{
+    position: absolute;
+    width: 134px;
+    height: 134px;
+    float: right;
+    margin-right: -3%;
+    margin-top: 43px;
+}
+.tip-en>img{
+    margin-right: 0;
+    margin-left: -3%;
+    float: left;
+}
+.tip-det{
+    display: inline-block;
+}
+.tip-text{
+    position: absolute;
+    margin-right: 120px;
+    width: 75%;
+    text-align: right;
+    line-height: 220px;
+}
+.tip-text>span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.tip-text-en{
+    margin-right: 0;
+    margin-left: 120px;
+    text-align: left;
+}
+
+/*================
+CV content
+================*/
+.wpcf7 {
+    background-color: #e5f0ec;
+}
+label{
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.name, .email, .cv{
+    font-weight: 700;
+}
+label>span>input{
+    width: 860px;
+    height: 40px;
+    background-color: #ccd7d3;
+    color: #13392f;
+    border: 0;
+    margin-right: 250px;
+}
+#age{margin-right: 311px;}
+#profession{margin-right: 274px;}
+#education{margin-right: 262px;}
+#institution{margin-right: 210px;}
+#student{margin-right: 132px;}
+#adrress{margin-right: 202px;}
+#email{margin-right: 272px;}
+#cv{margin-right: 346px; }
+#position{margin-right: 101px; width: 215px;}
+
+/*Ar*/
+#age-ar{margin-right: 322px;}
+#profession-ar{margin-right: 311px;}
+#education-ar{margin-right: 306px;}
+#institution-ar{margin-right: 192px;}
+#student-ar{margin-right: 97px;}
+#adrress-ar{margin-right: 250px;}
+#email-ar{margin-right: 208px;}
+#cv-ar{margin-right: 367px; }
+#position-ar{margin-right: 161px; width: 215px;}
+
+/*En*/
+#name-en,#age-en,#profession-en,#education-en,#institution-en,#student-en,#adrress-en,#email-en,#cv-en,#position-en{
+    margin-right: 0;
+    margin-left: 272px;
+}
+#age-en{margin-left: 298px;}
+#profession-en{margin-left: 216px;}
+#education-en{margin-left: 224px;}
+#institution-en{margin-left: 100px;}
+#student-en{margin-left: 112px;}
+#adrress-en{margin-left: 217px;}
+#email-en{margin-left: 275px;}
+#cv-en{margin-left: 357px; }
+#position-en{margin-left: 147px; width: 215px;}
+
+.wpcf7-submit{
+    color: white;
+    background-color: #4d6373;
+    height: 40px;
+    width: 170px;
+    border: 0;
+    font-size: 30px;
+    margin-right: 1035px;
+    margin-bottom: 20px;
+}
+#submit-ar{
+    margin-right: 1057px;
+}
+#submit-en{
+    margin-left: 1047px;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 1830px) {
+    label>span>input{
+        width: 760px;
+    } 
+    .wpcf7-submit{
+        margin-right: 933px;
+    }
+    #submit-en{
+        margin-left: 947px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1690px) {
+    label>span>input{
+        width: 680px;
+    } 
+    .wpcf7-submit{
+        margin-right: 855px;
+    }
+    #submit-en{
+        margin-left: 865px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    label>span>input{
+        width: 595px;
+    } 
+    .wpcf7-submit{
+        margin-right: 770px;
+    }
+    #submit-en{
+        margin-left: 783px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .position-num{
+        padding: 3px 0;
+    }
+    .position-button{
+        padding: 0 10px;
+    }
+    .blog-post-title{
+        margin-right: 4%;
+    }
+    .blog-post-title-en{
+        margin-right: 0;
+    }
+    .position-popup-btn{
+        width: 25%;
+    }
+    label>span>input{
+        width: 600px;
+        margin-right: 147px;
+    }
+    #age{margin-right: 209px;}
+    #profession{margin-right: 173px;}
+    #education{margin-right: 162px;}
+    #institution{margin-right: 110px;}
+    #student{margin-right: 33px;}
+    #adrress{margin-right: 104px;}
+    #email{margin-right: 174px;}
+    #cv{margin-right: 250px; }
+    #position{margin-right: 5px;}
+    
+    /*Ar*/
+    #age-ar{margin-right: 219px;}
+    #profession-ar{margin-right: 209px;}
+    #education-ar{margin-right: 204px;}
+    #institution-ar{margin-right: 89px;}
+    #student-ar{margin-right: -7px;}
+    #adrress-ar{margin-right: 146px;}
+    #email-ar{margin-right: 104px;}
+    #cv-ar{margin-right: 261px; }
+    #position-ar{margin-right: 57px;}
+    
+    /*En*/
+    #name-en,#age-en,#profession-en,#education-en,#institution-en,#student-en,#adrress-en,#email-en,#cv-en{
+        width: 510px;
+    }
+
+    .wpcf7-submit{
+        margin-right: 680px;
+    }
+    #submit-en{
+        margin-left: 697px;
+        margin-right: 0px;
+    }
+    #submit-ar{
+        margin-right: 692px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    label>span>input{
+        width: 470px;
+    }
+    #name-en,#age-en,#profession-en,#education-en,#institution-en,#student-en,#adrress-en,#email-en,#cv-en{
+        width: 380px;
+    }
+    .wpcf7-submit{
+        margin-right: 550px;
+    }
+    #submit-en{
+        margin-left: 567px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    label>span>input{
+        width: 430px;
+    }
+    #name-en,#age-en,#profession-en,#education-en,#institution-en,#student-en,#adrress-en,#email-en,#cv-en{
+        width: 380px;
+    }
+    .wpcf7-submit{
+        margin-right: 510px;
+    }
+    .tip-text{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .position-num{
+        padding: 7px 0;
+    }
+    label{
+        font-size: 20px;
+    }
+    label>span>input{
+        width: 427px;
+        margin-right: 103px;
+    }
+    #age{margin-right: 148px;}
+    #profession{margin-right: 122px;}
+    #education{margin-right: 113px;}
+    #institution{margin-right: 76px;}
+    #student{margin-right: 21px;}
+    #adrress{margin-right: 72px;}
+    #email{margin-right: 122px;}
+    #cv{margin-right: 175px; }
+    #position{margin-right: 0px; width: 120px;} 
+    
+    /*Ar*/
+    #age-ar{margin-right: 154px;}
+    #profession-ar{margin-right: 147px;}
+    #education-ar{margin-right: 143px;}
+    #institution-ar{margin-right: 62px;}
+    #student-ar{margin-right: -5px;}
+    #adrress-ar{margin-right: 104px;}
+    #email-ar{margin-right: 74px;}
+    #cv-ar{margin-right: 186px; }
+    #position-ar{margin-right: 40px; width: 120px;}
+    
+    /*En*/
+    #name-en{margin-left: 194px;}
+    #age-en{margin-left: 214px;}
+    #profession-en{margin-left: 156px;}
+    #education-en{margin-left: 162px;}
+    #institution-en{margin-left: 74px;}
+    #student-en{margin-left: 83px;}
+    #adrress-en{margin-left: 158px;}
+    #email-en{margin-left: 199px;}
+    #cv-en{margin-left: 259px; }
+    #position-en{margin-left: 110px; width: 120px;}
+
+    
+    .wpcf7-submit{
+        margin-right: 490px;
+        font-size: 22px;
+        width: 110px;
+    }
+    #submit-en{
+        margin-left: 528px;
+        margin-right: 0px;
+    }
+    .modal-content{
+        margin-top: 460px;
+    }
+    .tip{
+        margin-bottom: 15px;
+        height: 200px;
+    }
+    .tip>img{
+        width: 97px;
+        height: 97px;
+        margin-right: -5%;
+        margin-top: 53px;
+    }
+    .tip-en>img{
+        margin-right: 0;
+        margin-left: -5%;
+    }
+    .tip-text{
+        margin-right: 80px;
+    }
+    .tip-text-en{
+        margin-right: 0;
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .position-popup-btn{
+        width: 30%;
+    }
+    .position-num{
+        margin-right: 5px;
+    }
+    .position-button{
+        padding: 0 3px;
+    }
+    .blog-post-title{
+        margin-right: 2%;
+    }
+    .blog-post-title-en{
+        margin-right: 0;
+    }
+    label>span>input{
+        width: 334px;
+    }
+    #name-en,#age-en,#profession-en,#education-en,#institution-en,#student-en,#adrress-en,#email-en,#cv-en{
+        width: 296px;
+    }
+    .wpcf7-submit{
+        margin-right: 400px;
+    }
+    #submit-en{
+        margin-left: 444px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .squ-1{
+        background-color: #55746c;
+    }
+    .squ-2{
+        background-color: #66817a;
+    }
+    .squ-3{
+        background-color: #92a5a1;
+    }
+    .position-mobile{
+        display: inline-block;
+        width: 50%;
+    }
+    .position-text{
+        display: block;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .position-button{
+        width: 50%;
+        padding: 0 3px;
+        margin-right: -2px;
+    }
+    .tip{
+        margin-bottom: 0px;
+        height: 200px;
+        width: 47.5%;
+    }
+    .tip>img{
+        width: 52px;
+        height: 52px;
+    }
+    .tip-1>img{
+        margin-right: -5%;
+        margin-top: -10px;
+    }
+    .tip-2>img{
+        left: 0;
+        margin-right: 0;
+        margin-left: -5%;
+        margin-top: -10px;
+    }
+    .tip-3>img{
+        bottom: 0;
+        margin-right: -5%;
+        margin-bottom: -10px;
+    }
+    .tip-4>img{
+        left: 0;
+        bottom: 0;
+        margin-right: 0;
+        margin-left: -5%;
+        margin-bottom: -10px;
+    }
+    .tip-2-en>img, .tip-4-en>img{
+        right: 0;
+        left: inherit;
+        margin-left: 0;
+        margin-right: -5%;
+    }
+    .tip-text{
+        margin-right: 10px;
+        width: 90%;
+    }
+    .tip-text-en{
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    #menu1{
+        padding: 4% 4px 4% 4px;
+    }
+    label{
+        font-size: 14px;
+    }
+    label>span>input{
+        width: 399px;
+        height: 28px;
+    }
+    #name-en,#age-en,#profession-en,#education-en,#institution-en,#student-en,#adrress-en,#email-en,#cv-en{
+        width: 296px;
+    }
+    #name{margin-right: 57px;}
+    #age{margin-right: 88px;}
+    #profession{margin-right: 70px;}
+    #education{margin-right: 64px;}
+    #institution{margin-right: 38px;}
+    #student{margin-right: 0px;}
+    #adrress{margin-right: 35px;}
+    #email{margin-right: 70px;}
+    #cv{margin-right: 108px; }
+    #position{margin-right: -2px; width: 120px;} 
+    
+    /*Ar*/
+    #name-ar{margin-right: 49px;}
+    #age-ar{margin-right: 85px;}
+    #profession-ar{margin-right: 79px;}
+    #education-ar{margin-right: 77px;}
+    #institution-ar{margin-right: 19px;}
+    #student-ar{margin-right: 0px;}
+    #adrress-ar{margin-right: 48px;}
+    #email-ar{margin-right: 27px;}
+    #cv-ar{margin-right: 106px; }
+    #position-ar{margin-right: 3px; width: 120px;}
+    
+    /*En*/
+    #name-en{margin-left: 86px;}
+    #age-en{margin-left: 99px;}
+    #profession-en{margin-left: 58px;}
+    #education-en{margin-left: 62px;}
+    #institution-en{margin-left: 0px;}
+    #student-en{margin-left: 6px;}
+    #adrress-en{margin-left: 58px;}
+    #email-en{margin-left: 87px;}
+    #cv-en{margin-left: 128px; }
+    #position-en{margin-left: 23px; width: 120px;}
+    
+    .wpcf7-submit{
+        font-size: 16px;
+        height: 28px;
+        width: 63px;
+        margin-right: 443px;
+        margin-bottom: 0;
+    }
+    #submit-en{
+        margin-left: 361px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    label>span>input{
+        width: 253px;
+    }
+    #name-en,#age-en,#profession-en,#education-en,#institution-en,#student-en,#adrress-en,#email-en,#cv-en{
+        width: 246px;
+    }
+    .wpcf7-submit{
+        margin-right: 295px;
+    }
+    #submit-en{
+        margin-left: 309px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 460px) {.position-button{padding: 0;}}
+
+@media screen and (max-width: 425px) {
+    .mobile-menu-li-ar{
+        padding: 0;
+    }
+    .position-button{
+        padding: 0 5px;
+    }
+    label>span>input{
+        width: 165px;
+    }
+    #name-en,#age-en,#profession-en,#education-en,#institution-en,#student-en,#adrress-en,#email-en,#cv-en{
+        width: 150px;
+    }
+    .wpcf7-submit{
+        margin-right: 208px;
+    }
+    #submit-en{
+        margin-left: 214px;
+        margin-right: 0px;
+    }
+}
+
